@@ -12,8 +12,8 @@ jobs:
     environment: production
 
     steps:
-      - name: Authenticate Beam and Deploy
       - uses: actions/checkout@v3
+      - name: Authenticate Beam and Deploy
         env:
           BEAM_CLIENT_ID: ${{ secrets.BEAM_CLIENT_ID }}
           BEAM_CLIENT_SECRET: ${{ secrets.BEAM_CLIENT_SECRET }}
