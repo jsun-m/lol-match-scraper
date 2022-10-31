@@ -3,7 +3,7 @@ name: deploy-beam
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
